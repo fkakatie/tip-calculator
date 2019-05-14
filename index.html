@@ -11,7 +11,40 @@
     <link rel="stylesheet" href="assets/styles/style.css">
 </head>
 <body>
-    <h1>Hello World</h1>
+    <header>
+        <div class="container">
+            <h1>Tip Calculator</h1>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <form>
+                <label for="bill" class="fw">
+                    <span class="label-lg">$</span>
+                    <input 
+                        type="number" 
+                        name="bill"
+                        id="bill"
+                        step="0.01"
+                        min="0"
+                        placeholder="Cost of the bill"
+                        required />
+                </label>
+                <div class="btns">
+                    <button>15%</button>
+                    <button>18%</button>
+                    <button>20%</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <a href="https://github.com/fkakatie/tip-calculator" target="_blank">README.md</a>
+            <p>&copy; <span id="copy-year">2019</p>
+        </div>
+    </footer>
 </body>
 <!-- JAVASCRIPT -->
 <script src="assets/scripts/script.js"></script>
